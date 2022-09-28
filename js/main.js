@@ -23,12 +23,12 @@ $(document).ready(function() {
 function noDigits(event) {
   if ("1234567890-/.,?<>|!#@^:;()".indexOf(event.key) != -1)
     event.preventDefault();
-}
+};
 
 function noABC(event) {
   if ("qwertyuiopasdfghjklzxcvbnmйцукенгшщзхъфывапролджэячсмитьбюё-/.,?<>|!#@^:;()".indexOf(event.key) != -1)
     event.preventDefault();
-}
+};
 
  AOS.init({
  	duration: 800,

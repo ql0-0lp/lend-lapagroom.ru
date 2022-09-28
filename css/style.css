@@ -3473,25 +3473,21 @@ input[type="button"].btn-block {
     margin: 0;
     padding: 0;
 }
-
 .iw-modal:target {
     opacity: 1;  
   pointer-events: auto;  
     overflow-y: auto;  
 }
-
 .iw-modal-wrapper {
   margin:auto;  
   margin-top:15vh;  
 }
-
 .iw-CSS-modal-inner {
     position: relative;
     background: rgb(221, 235, 235);  
     border: 1px solid #ccc;  
     border-radius: 30px;  
 }
-
 .iw-modal-header {
     padding: 15px; 
     background:#f1f1f1; 
@@ -3507,7 +3503,6 @@ input[type="button"].btn-block {
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .iw-close {
     position:absolute;
   top: 5px;  
@@ -3516,12 +3511,10 @@ input[type="button"].btn-block {
     color: #555;  
     text-decoration: none;
 }
-
 .iw-close:hover, .iw-close:focus {
     color: #000;  
     cursor: pointer;
 }
-
 .iw-modal-text {
   padding: 15px 20px;  
 }
@@ -8612,7 +8605,8 @@ strong {
   .slider-text .text {
     width: 100%; }
     .slider-text .text p {
-      color: rgba(255, 255, 255, 0.9); }
+      color: rgba(255, 255, 255, 0.9); 
+      font-size: 17px;}
   .slider-text .subheading {
     font-size: 14px;
     font-weight: 400;
@@ -8620,7 +8614,7 @@ strong {
     color: #9d8f8f;
     letter-spacing: 2px; }
   .slider-text h1 {
-    font-size: 44px;
+    font-size: 37px;
     font-family: "Noto Sans", Arial, sans-serif;
     line-height: 1.2;
     font-weight: 700;
@@ -8632,7 +8626,7 @@ strong {
   .slider-text .logo img{
     position: relative;
     display: inline-block;
-    width: 300px;
+    width: 200px;
     margin-bottom: 1em; }
     .slider-text .logo a {
       position: relative;
